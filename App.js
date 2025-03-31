@@ -1,13 +1,13 @@
-import React from "react";
-import Product from "./Product";
+import React from 'react';
+import Todo from './Todo';
 
 function App() {
-    return (
-        <div>
-            <h1>Product List</h1>
-            <Product />
-        </div>
-    );
+  return (
+    <div>
+      <Todo />
+    </div>
+  );
 }
 
 export default App;
+
